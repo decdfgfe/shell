@@ -1,2 +1,3 @@
 http://tldp.org/LDP/abs/html/index.html
 http://vimgifs.com
+https://www.visualthesaurus.com/
