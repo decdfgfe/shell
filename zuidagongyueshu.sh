@@ -8,9 +8,12 @@ if [ "$#" -ne 2 ];then
 fi
 Max_common_divisor(){
 	if [ "$2" -eq 0 ];then
-	echo "Max common divisor is $1"
+	#echo "Max common divisor is $1"
+	echo $1
 	else
 	Max_common_divisor $2 $(($1%$2))
 	fi
 }
-Max_common_divisor $1 $2
+temp=$(Max_common_divisor $1 $2)
+echo "The least common multiple is $(($1*$2/$temp))"
+echo "The max common divisor is $temp"
