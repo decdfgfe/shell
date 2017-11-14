@@ -22,6 +22,7 @@ case "$select" in
 	3) smtp=smtp.126.com
 	;;
 	4) smtp=smtp.qq.com
+	;;
 	*) echo 'plz input 1 or 2 or 3 or 4'
 	exit 1
 	;;
